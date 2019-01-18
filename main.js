@@ -149,6 +149,9 @@ document.getElementById("goButton").addEventListener("click", async () => {
   if (payloadType === "CTCaer_Hekate") {
     payload = CTCaer_Hekate;
 
+  } else if (payloadType === "NS_Atmosphere") {
+    payload = NS_Atmosphere;
+
   } else if (payloadType === "fusee") {
     payload = fusee;
 
